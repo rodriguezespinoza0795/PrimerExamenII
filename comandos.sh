@@ -16,3 +16,16 @@ mv Memorias/disco_extraible.txt  Memorias/MemoriaSecundaria/
 rmdir Contabilidad/
 mv registros.txt Memorias/MemoriaPrincipal/
 cp -r Memorias Memorias2
+
+git init
+git remote add origin git@github.com:rodriguezespinoza0795/PrimerExamenII.git
+git add .
+git commit -m"First Commit"
+git push origin main
+
+git branch Rodriguez_David
+git checkout Rodriguez_David
+touch readme.md
+git add .
+git commit -m"primer examen"
+git push origin Rodriguez_David
